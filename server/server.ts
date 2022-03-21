@@ -1,5 +1,5 @@
 require('dotenv').config()
-import typeDefs from "./model/schema"
+import typeDefs from "./schema/schema"
 import resolvers from "./resolvers/resolvers"
 import { ApolloServer } from 'apollo-server'
 
